@@ -6,22 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a class="logo" href="./index.html"> <span> Web</span>Studio</a>
-        <ul class="navigation">
+        <a class="logo" href="./index.html">
+          <span class="logo-blue"> Web</span>Studio</a
+        >
+        <ul class="navigation, list">
           <li><a class="navigation-item" href="./index.html">Студия</a></li>
           <li>
-            <a class="navigation-item" href="./portfolio.html">Портфолио</a>
+            <a class="navigation-item, logo-blue" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
           <li><a class="navigation-item" href="">Контакти</a></li>
         </ul>
 
-        <ul class="contacts">
+        <ul class="contacts, list">
           <li>
             <a class="contacts-item" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -36,131 +43,134 @@
       </nav>
     </header>
     <main>
-      <ul class="filter">
+      <ul class="filter, list">
         <li><button class="filter-item" type="button">Усі</button></li>
         <li><button class="filter-item" type="button">Веб-сайти</button></li>
         <li><button class="filter-item" type="button">Додатки</button></li>
         <li><button class="filter-item" type="button">Дизайн</button></li>
         <li><button class="filter-item" type="button">Маркетинг</button></li>
       </ul>
-      <ul>
+      <h1 class="visually-hidden">Проєкти</h1>
+      <ul class="list">
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/1.jpg"
               alt="our team"
               width="370"
               height="294"
             />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title">Технокряк</h2>
+            <p class="text">Веб-сайт</p>
           </section>
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/2.jpg"
               alt="basketball players"
               width="370"
               height="294"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </section>
+            <h2 class="title">Постер New Orlean vs Golden Star</h2>
+            <p class="text">Дизайн</p>
+          </section class="project">
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/3.jpg"
               alt="restoran logo"
               width="370"
               height="294"
             />
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
+            <h2 class="title">Ресторан Seafood</h2>
+            <p class="text">Додаток</p>
           </section>
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/4.jpg"
               alt="headphones"
               width="370"
               height="294"
             />
-            <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="title">Проєкт Prime</h2>
+            <p class="text">Маркетинг</p>
           </section>
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/5.jpg"
               alt="boxes"
               width="370"
               height="294"
             />
-            <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
+            <h2 class="title">Проєкт Boxes</h2>
+            <p class="text">Додаток</p>
           </section>
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/6.jpg"
               alt="monitor"
               width="370"
               height="294"
             />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title">Inspiration has no Borders</h2>
+            <p class="text">Веб-сайт</p>
           </section>
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/7.jpg"
               alt=" open book"
               width="370"
               height="294"
             />
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="title">Видання Limited Edition</h2>
+            <p class="text">Дизайн</p>
           </section>
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/8.jpg"
               alt="label"
               width="370"
               height="294"
             />
-            <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
-          </section>
+            <h2 class="title">Проєкт LAB</h2>
+            <p class="text">Маркетинг</p>
+          </section class="project">
         </li>
         <li>
-          <section>
+          <section class="project">
             <img
               src="./images/portfolio/9.jpg"
               alt="notebook"
               width="370"
               height="294"
             />
-            <h2>Growing Business</h2>
-            <p>Додаток</p>
+            <h2 class="title">Growing Business</h2>
+            <p class="text">Додаток</p>
           </section>
         </li>
       </ul>
     </main>
     <footer class="foot">
-      <a class="logo" href="./index.html"> <span> Web</span>Studio</a>
+      <a class="logo" href="./index.html">
+        <span class="logo-blue"> Web</span>Studio</a
+      >
       <address class="address">
-        <ul>
+        <ul class="list">
           <li>
             <a
-              class="addr-color"
+              class="address"
               href="https://goo.gl/maps/z6WJYS9VBnumN4T17"
               target="_blank"
               rel="noopener nofollow"
