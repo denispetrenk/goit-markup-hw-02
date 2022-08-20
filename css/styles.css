@@ -90,7 +90,7 @@ body {
   font-style: normal;
 }
 .team {
-  background-color: var(--second-background-color);
+  background-color: var(--background-color);
 }
 .navigation-item:hover,
 .navigation-item:focus {
