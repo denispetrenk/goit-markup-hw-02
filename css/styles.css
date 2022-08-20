@@ -9,18 +9,18 @@
   --paragraph-color: #757575;
   --text-color: #000000;
   --address-color: rgba(255, 255, 255, 0.6);
-  --group-color:#EEEEEE
+  --group-color: #eeeeee;
   --main-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
 }
 
-
-body {/**основные**/
-  background-color: var(--main-background-color);
+body {
+  /**основные**/
+  background-color: var(--background-color);
   color: var(--maintext-color);
   font-family: var(--main-font);
-  font-size: 16px;
-  letter-spacing: 0, 03em;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logo {
@@ -50,6 +50,17 @@ body {/**основные**/
 }
 .header {
   text-align: center;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .addr-color {
   font-style: normal;
@@ -79,7 +90,7 @@ body {/**основные**/
   font-style: normal;
 }
 .team {
-  background-color: var(--background-color);
+  background-color: var(--second-background-color);
 }
 .navigation-item:hover,
 .navigation-item:focus {
@@ -90,26 +101,25 @@ body {/**основные**/
 .contacts-item:focus {
   color: var(--accent-color);
 }
-.filter-item {/*кнопки фильтра портфолио*/
+.filter-item {
+  /*кнопки фильтра портфолио*/
   margin: 0;
   border: 0;
-  width: 130px;
-  height: 38px;
-  left: 957px;
-  top: 174px;
+  background-color: var(--second-background-color);
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
+  font-family: inherit;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--maintext-color);
-   cursor: pointer;
+
+  cursor: pointer;
 }
 .filter-item:hover,
 .filter-item:focus {
   background-color: var(--accent-color);
-  color: var(--main-background-color);
+  color: var(--background-color);
 }
 /* visually-hidden */
 .visually-hidden {
@@ -128,39 +138,51 @@ body {/**основные**/
 .button-serv {
   background-color: var(--accent-color);
   color: var(--main-background-color);
-  margin: 0;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  /* identical to box height, or 188% */
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .solutions {
   background-color: var(--footer-color);
-  color: var(--main-background-color);
+  color: var(--background-color);
 }
-.project {background-color:var(--group-color);}
+
 .title {
   /*заголовок проектов в порфолио*/
-  font-family: inherit;
+
   font-size: 18px;
   font-weight: 700;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  text-align: left;
 }
 .title-char {
   /*заголовок характеристик в студия*/
-  font-family:inherit;
+  font-family: inherit;
   font-size: 14px;
   font-weight: 700;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-align: left;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .txt-char {
   /*текст характеристик в студия*/
-  font-family:inherit;
-  font-size: 14px;
+
   font-weight: 400;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   text-align: left;
+  color: var(--paragraph-color);
 }
 .title-why {
   /*заголовок чем мы занимаемя( и наша команда) в студия*/
@@ -175,10 +197,8 @@ body {/**основные**/
   /*текст в проектах портфолио*/
   font-family: inherit;
   font-size: 16px;
-  font-weight: 400;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
-  text-align: left;
+  color: var(--paragraph-color);
 }
 .team-name {
   font-family: inherit;
@@ -201,11 +221,11 @@ body {/**основные**/
 .address {
   text-decoration: none;
   font-family: inherit;
-font-size: 14px;
-font-weight: 400;
-line-height: calc(24 / 14);
-letter-spacing: 0.03em;
-text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .list .address:hover,
