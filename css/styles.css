@@ -21,7 +21,6 @@ body {
   font-family: var(--main-font);
   font-size: 14px;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .logo {
   color: var(--text-color);
@@ -32,10 +31,7 @@ body {
   font-size: 26px;
   text-decoration: none;
 }
-.logo-blue {
-  text-decoration: none;
-  color: var(--accent-color);
-}
+
 .header-studio {
   background-color: var(--background-color);
 }
@@ -49,12 +45,8 @@ body {
   margin: 0;
 }
 .header {
-  text-align: center;
   width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  font-style: normal;
+
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -73,16 +65,24 @@ body {
 .navigation-item {
   color: var(--maintext-color);
   text-decoration: none;
-  font-family: inherit;
+
   font-size: 14px;
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  text-align: left;
+}
+.logo-blue {
+  text-decoration: none;
+  color: var(--accent-color);
 }
 .contacts-item {
   text-decoration: none;
   color: var(--paragraph-color);
+  width: 122px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
 .list {
   list-style-type: none;
@@ -90,7 +90,7 @@ body {
   font-style: normal;
 }
 .team {
-  background-color: var(--background-color);
+  background-color: var(--second-background-color);
 }
 .navigation-item:hover,
 .navigation-item:focus {
@@ -103,7 +103,7 @@ body {
 }
 .filter-item {
   /*кнопки фильтра портфолио*/
-  margin: 0;
+
   border: 0;
   background-color: var(--second-background-color);
   border-radius: 4px;
@@ -113,7 +113,7 @@ body {
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
   text-align: center;
-
+  color: var(--maintext-color);
   cursor: pointer;
 }
 .filter-item:hover,
@@ -186,7 +186,7 @@ body {
 }
 .title-why {
   /*заголовок чем мы занимаемя( и наша команда) в студия*/
-  font-family: inherit;
+
   font-size: 36px;
   font-weight: 700;
   line-height: calc(42 / 36);
